@@ -129,24 +129,31 @@ N ≥ 1000 sonrası ciddi yavaşlama görülür
 
 N ≥ 10000 pratik değildir
 
+![BruteForce](Resim2.png)
+
 ### Graham Scan
 Tüm veri setlerinde hızlıdır
 
 Milisaniye seviyesinde sonuç üretir
 
-Grafiksel Karşılaştırma
+![GrahamScan](Resim3.png)
+
+---
+
+## Grafiksel Karşılaştırma
 
 Grafikte:
 
 X ekseni → Nokta sayısı
 
 Y ekseni → Çalışma süresi
+
 ---
+
 ### Sonuç:
 
 Graham Scan algoritması büyük veri setlerinde açık şekilde daha performanslıdır.
 
-![Görsel Açıklaması](images/grafik_sonucu.png)
 ---
 ### Deneysel Gözlemler
 
@@ -155,3 +162,5 @@ Teorik karmaşıklık ile deneysel sonuçlar uyumludur
 Brute Force algoritması kübik büyüme göstermektedir
 
 Graham Scan algoritması logaritmik büyüme göstermektedir
+
+![Grafik](Resim1.png)
